@@ -14,5 +14,6 @@ const server = http.createServer((req,res)=>{
     }
 })
 
-server.listen(50000);
-console.log('server listening at port 50000');
+server.listen(50000,()=>{
+  console.log('server listening at port 50000');
+});
